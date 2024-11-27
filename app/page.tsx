@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { EditableCountdown } from '@/components/editable-countdown'
 import { SponsorStrip } from '@/components/sponsor-strip'
 

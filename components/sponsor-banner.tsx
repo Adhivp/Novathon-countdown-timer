@@ -8,7 +8,7 @@ interface SponsorBannerProps {
   description: string
 }
 
-export function SponsorBanner({ type, name, logo, description }: SponsorBannerProps) {
+export function SponsorBanner({ name, logo, description }: SponsorBannerProps) {
   return (
     <Card className="bg-white/5 border-none hover:bg-white/10 transition-colors">
       <CardContent className="p-8">

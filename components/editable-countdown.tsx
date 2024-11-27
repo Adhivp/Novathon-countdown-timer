@@ -21,7 +21,7 @@ interface EditableCountdownProps {
 }
 
 export function EditableCountdown({ defaultDate }: EditableCountdownProps) {
-  const defaultDateTime = new Date('2024-11-29T12:00:00+05:30')
+  const defaultDateTime = new Date(defaultDate)
   const [targetDate, setTargetDate] = useState<Date>(defaultDateTime)
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     hours: 0,
